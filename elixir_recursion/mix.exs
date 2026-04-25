@@ -3,9 +3,11 @@ defmodule Recursion.MixProject do
 
   def project do
     [
+      path: "elixir_recursion",
       app: :elixir_recursion,
       version: "0.1.0",
       elixir: "~> 1.19",
+      build_embedded: false,
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]

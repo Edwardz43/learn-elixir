@@ -3,9 +3,11 @@ defmodule PatternMatching.MixProject do
 
   def project do
     [
+      path: "elixir_pattern_matching",
       app: :elixir_pattern_matching,
       version: "0.1.0",
       elixir: "~> 1.19",
+      build_embedded: false,
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
