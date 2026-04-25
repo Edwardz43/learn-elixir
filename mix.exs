@@ -31,8 +31,6 @@ defmodule ElixirLearning.MixProject do
   end
 
   defp aliases do
-    [
-      test: "test --path test"
-    ]
+    []
   end
 end
