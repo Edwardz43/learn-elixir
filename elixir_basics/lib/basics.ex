@@ -257,7 +257,7 @@ defmodule Basics do
     map = %{a: 1, b: 2, c: 3}
 
     # 讀取
-    b_value = map.b  # map[:b] 也可以
+    _ = map.b  # map[:b] 也可以
 
     # 更新 (產生新的 map，不可變!)
     updated_map = Map.put(map, :b, 100)
